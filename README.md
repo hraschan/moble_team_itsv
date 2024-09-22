@@ -1,38 +1,98 @@
-# create-svelte
+# Mobile Team Sveltekit Project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Mobile Team Sveltekit Project
 
-## Creating a project
+This project is a SvelteKit application designed for managing maintenance alerts for mobile applications. It provides a dashboard for creating, updating, and managing maintenance notifications across different apps.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- User authentication
+- Dashboard for maintenance alerts
+- CRUD operations for alerts
+- PostgreSQL database integration with Drizzle ORM
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Prerequisites
 
-## Developing
+- Node.js (v14 or later)
+- Docker and Docker Compose
+- PostgreSQL
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Getting Started
 
-```bash
-npm run dev
+1. Clone the repository:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+   ```
+   git clone <repository-url>
+   cd mobile-team-sveltekit-project
+   ```
 
-## Building
+2. Install dependencies:
 
-To create a production version of your app:
+   ```
+   pnpm install
+   ```
 
-```bash
-npm run build
-```
+3. Set up environment variables:
 
-You can preview the production build with `npm run preview`.
+   - Copy `.env.example` to `.env`
+   - Update the variables in `.env` with your specific configuration
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+4. Start the local database:
+
+   ```
+   docker-compose up -d
+   ```
+
+   This will start a PostgreSQL database and pgAdmin container.
+
+5. Run database migrations:
+
+   ```
+   pnpm run db:migrate
+   ```
+
+6. Start the development server:
+   ```
+   pnpm run dev
+   ```
+
+## Database Management with Drizzle
+
+This project uses Drizzle ORM for database management. Here are some useful commands:
+
+- Generate migrations:
+
+  ```
+  pnpm run db:generate
+  ```
+
+- Apply migrations:
+
+  ```
+  pnpm run db:migrate
+  ```
+
+- Drop the database (use with caution):
+  ```
+  pnpm run db:drop
+  ```
+
+## Project Structure
+
+- `/src`: Source code
+  - `/routes`: SvelteKit routes
+  - `/lib`: Shared components and utilities
+- `/drizzle`: Database schema and migrations
+- `/static`: Static assets
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
