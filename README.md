@@ -1,7 +1,5 @@
 # Mobile Team Sveltekit Project
 
-# Mobile Team Sveltekit Project
-
 This project is a SvelteKit application designed for managing maintenance alerts for mobile applications. It provides a dashboard for creating, updating, and managing maintenance notifications across different apps.
 
 ## Features
