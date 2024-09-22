@@ -4,7 +4,7 @@ import { hash } from '@node-rs/argon2';
 import { lucia } from '../../lib/server/auth';
 import { db } from '$lib';
 import type { Actions } from './$types';
-import type { PageServerLoad } from '../$types';
+import type { PageServerLoad } from './$types';
 import { superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
 import { formSchema } from './schema';
