@@ -1,0 +1,22 @@
+{
+	"bvaebAppAlerts": [
+		{
+			"id": "BVAEB001",
+			"title": "System Update",
+			"content": "We're updating our core systems. Some features may be temporarily unavailable.",
+			"buttonText": "More Info",
+			"dismissible": true,
+			"startTime": "2023-07-10T20:00:00Z",
+			"endTime": "2023-07-11T04:00:00Z"
+		},
+		{
+			"id": "BVAEB002",
+			"title": "Performance Enhancements",
+			"content": "We're optimizing our servers for better performance. Brief interruptions may occur.",
+			"buttonText": "Learn More",
+			"dismissible": false,
+			"startTime": "2023-07-20T22:00:00Z",
+			"endTime": "2023-07-21T01:00:00Z"
+		}
+	]
+}

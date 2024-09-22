@@ -1,0 +1,40 @@
+{
+	"OeGKAppAlerts": [
+		{
+			"id": "OeGK001",
+			"title": "Scheduled Maintenance",
+			"content": "System upgrade in progress. Service may be intermittent.",
+			"buttonText": "Learn More",
+			"dismissible": true,
+			"startTime": "2023-06-01T22:00:00Z",
+			"endTime": "2023-06-02T02:00:00Z"
+		},
+		{
+			"id": "OeGK002",
+			"title": "Database Optimization",
+			"content": "Improving query performance. Slight delays expected.",
+			"buttonText": "Details",
+			"dismissible": false,
+			"startTime": "2023-06-15T01:00:00Z",
+			"endTime": "2023-06-15T03:00:00Z"
+		},
+		{
+			"id": "OeGK002",
+			"title": "Database Optimization",
+			"content": "Improving query performance. Slight delays expected.",
+			"buttonText": "Details",
+			"dismissible": false,
+			"startTime": "2024-10-15T01:00:00Z",
+			"endTime": "2024-10-15T03:00:00Z"
+		},
+		{
+			"id": "OeGK002",
+			"title": "Database Optimization",
+			"content": "Improving query performance. Slight delays expected.",
+			"buttonText": "Details",
+			"dismissible": false,
+			"startTime": "2024-09-15T01:00:00Z",
+			"endTime": "2024-09-25T03:00:00Z"
+		}
+	]
+}

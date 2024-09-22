@@ -1,0 +1,25 @@
+{
+  "id": "1a169787-57d8-4097-ae7b-c3f1f014e325",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {},
+  "enums": {
+    "public.team": {
+      "name": "team",
+      "schema": "public",
+      "values": [
+        "Booster",
+        "Gollum",
+        "Frodo"
+      ]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

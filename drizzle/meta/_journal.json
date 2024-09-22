@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1727005160330,
+      "tag": "20240922113920_mature_jack_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1727005288717,
+      "tag": "20240922114128_loose_ultragirl",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1727005450258,
+      "tag": "20240922114410_secret_titania",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1727005658580,
+      "tag": "20240922114738_first_venus",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1727005691289,
+      "tag": "20240922114811_sloppy_captain_universe",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1727008570058,
+      "tag": "20240922123610_smart_shockwave",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1727013518061,
+      "tag": "20240922135838_gorgeous_sabretooth",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1727016846741,
+      "tag": "20240922145406_skinny_fallen_one",
+      "breakpoints": true
+    }
+  ]
+}
